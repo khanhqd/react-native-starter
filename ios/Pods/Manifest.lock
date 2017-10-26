@@ -7,9 +7,13 @@ PODS:
     - React
   - CodePush/SSZipArchive (5.0.0):
     - React
+  - GPUImage (0.1.7)
   - React (0.47.2):
     - React/Core (= 0.47.2)
   - react-native-navigation (1.1.206):
+    - React
+  - react-native-webgl (0.7.0):
+    - GPUImage
     - React
   - React/BatchedBridge (0.47.2):
     - React/Core
@@ -42,6 +46,7 @@ PODS:
 DEPENDENCIES:
   - CodePush (from `../node_modules/react-native-code-push`)
   - react-native-navigation (from `../node_modules/react-native-navigation`)
+  - react-native-webgl (from `../node_modules/react-native-webgl/react-native-webgl.podspec`)
   - React/BatchedBridge (from `../node_modules/react-native`)
   - React/Core (from `../node_modules/react-native`)
   - React/DevSupport (from `../node_modules/react-native`)
@@ -61,15 +66,19 @@ EXTERNAL SOURCES:
     :path: ../node_modules/react-native
   react-native-navigation:
     :path: ../node_modules/react-native-navigation
+  react-native-webgl:
+    :path: ../node_modules/react-native-webgl/react-native-webgl.podspec
   Yoga:
     :path: ../node_modules/react-native/ReactCommon/yoga/Yoga.podspec
 
 SPEC CHECKSUMS:
   CodePush: 089e3da41b5040ba0ef89aa5d485f720ee4d5862
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   React: fbe1a006550fb55871cb377ba7741f5d1cfff733
   react-native-navigation: 943b7094da149b8dab4a369b7fdee81be66a802c
+  react-native-webgl: 805cf749146691a66775fc46f074c5f484769cd5
   Yoga: ff8531e8cf9f7ec92a75dd44286a68c4a084c507
 
-PODFILE CHECKSUM: e25cff3b76532252f5297c1ddb12d5561ad8f299
+PODFILE CHECKSUM: 8fa8b87b3525fe94b06ddcbe6fbca3a141d69a7f
 
 COCOAPODS: 1.3.1
