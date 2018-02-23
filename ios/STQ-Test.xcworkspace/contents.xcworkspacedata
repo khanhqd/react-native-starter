@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:react-native-starter.xcodeproj">
+      location = "group:/Users/quachdaikhanh/RNP/STQ-Test/ios/STQ-Test.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:STQ-Test.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,6 +1,6 @@
 import { Navigation } from 'react-native-navigation';
-import { Screens, startApp } from 'screens';
-import Store, { getProvider } from 'store';
+import { Screens, startApp } from './screens';
+import Store, { getProvider } from './store';
 
 (new Store())
   .setup()

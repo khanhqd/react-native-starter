@@ -26,7 +26,7 @@ Change your `./ios/fastlane/Matchfile` to match your git repository so it looks 
 
 ```ruby
 git_url "git@github.com:repo.git" # Change this URL
-app_identifier "com.ueno.reactnativestarter"
+app_identifier "com.kalvin.stqapp"
 type "appstore"
 ```
 

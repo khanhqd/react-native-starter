@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0739A8F5C9048E9AC93D045 /* libPods-react-native-starter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3988A5A05ABF10E5A9B33ED5 /* libPods-react-native-starter.a */; };
+		E047DF2EAFB88D607B8301FE /* libPods-STQ-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D054D25220BB9D7A8071AA9A /* libPods-STQ-Test.a */; };
 		E33FD0F41FFBDBD900EB627A /* RNUeno.m in Sources */ = {isa = PBXBuildFile; fileRef = E33FD0F31FFBDBD900EB627A /* RNUeno.m */; };
 		E3A2B8A61FEACEE70099C8F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A2B89F1FEACEE70099C8F8 /* AppDelegate.m */; };
 		E3A2B8A71FEACEE70099C8F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A2B8A01FEACEE70099C8F8 /* LaunchScreen.xib */; };
@@ -18,13 +18,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13B07F961A680F5B00A75B9A /* react-native-starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "react-native-starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* STQ-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STQ-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28535E22DE50085891BE4652 /* Pods-STQ-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STQ-Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-STQ-Test/Pods-STQ-Test.release.xcconfig"; sourceTree = "<group>"; };
 		3988A5A05ABF10E5A9B33ED5 /* libPods-react-native-starter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-react-native-starter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53031DDE923D9778D106F497 /* Pods-UenoNativeStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UenoNativeStarter.release.xcconfig"; path = "Pods/Target Support Files/Pods-UenoNativeStarter/Pods-UenoNativeStarter.release.xcconfig"; sourceTree = "<group>"; };
 		7B642519012E49C28F333EDB /* Pods-UenoNativeStarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UenoNativeStarterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UenoNativeStarterTests/Pods-UenoNativeStarterTests.release.xcconfig"; sourceTree = "<group>"; };
 		B5CE841990A646807137FE1B /* Pods-UenoNativeStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UenoNativeStarter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UenoNativeStarter/Pods-UenoNativeStarter.debug.xcconfig"; sourceTree = "<group>"; };
 		C6D9CAC761C0BC40C9E6DED5 /* libPods-UenoNativeStarterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UenoNativeStarterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D054D25220BB9D7A8071AA9A /* libPods-STQ-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STQ-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54EB502811BEE926F2F8941 /* Pods-react-native-starter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-starter.release.xcconfig"; path = "Pods/Target Support Files/Pods-react-native-starter/Pods-react-native-starter.release.xcconfig"; sourceTree = "<group>"; };
+		D69F6C2C40873EFC171D9B0A /* Pods-STQ-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STQ-Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STQ-Test/Pods-STQ-Test.debug.xcconfig"; sourceTree = "<group>"; };
 		DF6B3032214A4831BACEAB38 /* libPods-UenoNativeStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UenoNativeStarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF940EB702F911EAF36780E6 /* Pods-UenoNativeStarterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UenoNativeStarterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UenoNativeStarterTests/Pods-UenoNativeStarterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E33FD0F31FFBDBD900EB627A /* RNUeno.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNUeno.m; sourceTree = "<group>"; };
@@ -44,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0739A8F5C9048E9AC93D045 /* libPods-react-native-starter.a in Frameworks */,
+				E047DF2EAFB88D607B8301FE /* libPods-STQ-Test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +60,7 @@
 				DF6B3032214A4831BACEAB38 /* libPods-UenoNativeStarter.a */,
 				C6D9CAC761C0BC40C9E6DED5 /* libPods-UenoNativeStarterTests.a */,
 				3988A5A05ABF10E5A9B33ED5 /* libPods-react-native-starter.a */,
+				D054D25220BB9D7A8071AA9A /* libPods-STQ-Test.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -70,6 +74,8 @@
 				7B642519012E49C28F333EDB /* Pods-UenoNativeStarterTests.release.xcconfig */,
 				F978EFCD4B3FC4AAB213917B /* Pods-react-native-starter.debug.xcconfig */,
 				D54EB502811BEE926F2F8941 /* Pods-react-native-starter.release.xcconfig */,
+				D69F6C2C40873EFC171D9B0A /* Pods-STQ-Test.debug.xcconfig */,
+				28535E22DE50085891BE4652 /* Pods-STQ-Test.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -84,7 +90,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				E3A2B89D1FEACEE70099C8F8 /* react-native-starter */,
+				E3A2B89D1FEACEE70099C8F8 /* STQ-Test */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				8079FCF0BF9CE803AC9EB17F /* Pods */,
@@ -97,12 +103,12 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* react-native-starter.app */,
+				13B07F961A680F5B00A75B9A /* STQ-Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E3A2B89D1FEACEE70099C8F8 /* react-native-starter */ = {
+		E3A2B89D1FEACEE70099C8F8 /* STQ-Test */ = {
 			isa = PBXGroup;
 			children = (
 				E3A2B89E1FEACEE70099C8F8 /* AppDelegate.h */,
@@ -115,7 +121,7 @@
 				E33FD0F31FFBDBD900EB627A /* RNUeno.m */,
 				E33FD0F51FFBDBFB00EB627A /* RNUeno.h */,
 			);
-			path = "react-native-starter";
+			path = "STQ-Test";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +144,9 @@
 /* End PBXLegacyTarget section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* react-native-starter */ = {
+		13B07F861A680F5B00A75B9A /* STQ-Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "react-native-starter" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "STQ-Test" */;
 			buildPhases = (
 				DE29A3C61EA94606C7B30F25 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -154,9 +160,9 @@
 			);
 			dependencies = (
 			);
-			name = "react-native-starter";
+			name = "STQ-Test";
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* react-native-starter.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* STQ-Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -169,8 +175,8 @@
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = M734F5G6DK;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 52Y9PB4ADB;
+						ProvisioningStyle = Automatic;
 					};
 					E3AAD4501F573E3700B7831D = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -179,7 +185,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "react-native-starter" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "STQ-Test" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -193,7 +199,7 @@
 			projectRoot = "";
 			targets = (
 				E3AAD4501F573E3700B7831D /* build-env */,
-				13B07F861A680F5B00A75B9A /* react-native-starter */,
+				13B07F861A680F5B00A75B9A /* STQ-Test */,
 			);
 		};
 /* End PBXProject section */
@@ -239,7 +245,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-react-native-starter/Pods-react-native-starter-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STQ-Test/Pods-STQ-Test-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DE29A3C61EA94606C7B30F25 /* [CP] Check Pods Manifest.lock */ = {
@@ -253,7 +259,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-react-native-starter-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-STQ-Test-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -272,7 +278,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-react-native-starter/Pods-react-native-starter-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STQ-Test/Pods-STQ-Test-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -304,15 +310,15 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F978EFCD4B3FC4AAB213917B /* Pods-react-native-starter.debug.xcconfig */;
+			baseConfigurationReference = D69F6C2C40873EFC171D9B0A /* Pods-STQ-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 12;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = M734F5G6DK;
-				INFOPLIST_FILE = "react-native-starter/Info.plist";
+				DEVELOPMENT_TEAM = 52Y9PB4ADB;
+				INFOPLIST_FILE = "STQ-Test/Info.plist";
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
 				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
 				INFOPLIST_PREPROCESS = YES;
@@ -322,24 +328,24 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ueno.reactnativestarter;
-				PRODUCT_NAME = "react-native-starter";
-				PROVISIONING_PROFILE = "93f64944-5111-4c7a-afcc-f49d50f2e560";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.ueno.reactnativestarter";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalvin.stqapp;
+				PRODUCT_NAME = "STQ-Test";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D54EB502811BEE926F2F8941 /* Pods-react-native-starter.release.xcconfig */;
+			baseConfigurationReference = 28535E22DE50085891BE4652 /* Pods-STQ-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 12;
-				DEVELOPMENT_TEAM = M734F5G6DK;
-				INFOPLIST_FILE = "react-native-starter/Info.plist";
+				DEVELOPMENT_TEAM = 52Y9PB4ADB;
+				INFOPLIST_FILE = "STQ-Test/Info.plist";
 				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "-traditional";
 				INFOPLIST_PREFIX_HEADER = "${BUILD_DIR}/GeneratedInfoPlistDotEnv.h";
 				INFOPLIST_PREPROCESS = YES;
@@ -349,10 +355,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ueno.reactnativestarter;
-				PRODUCT_NAME = "react-native-starter";
-				PROVISIONING_PROFILE = "93f64944-5111-4c7a-afcc-f49d50f2e560";
-				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.ueno.reactnativestarter";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalvin.stqapp;
+				PRODUCT_NAME = "STQ-Test";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -475,7 +481,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "react-native-starter" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "STQ-Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -484,7 +490,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "react-native-starter" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "STQ-Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

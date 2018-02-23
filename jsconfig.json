@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "allowJs": true,
+        // "allowJs": true,
         "experimentalDecorators": true,
         "allowSyntheticDefaultImports": true
     },

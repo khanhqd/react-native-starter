@@ -1,4 +1,4 @@
-package com.ueno.reactnativestarter;
+package com.kalvin.stqapp;
 
 import com.reactnativenavigation.controllers.SplashActivity;
 

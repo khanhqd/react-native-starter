@@ -6,7 +6,7 @@ import { Sentry } from 'react-native-sentry';
 import { create, persist } from 'mobx-persist';
 import codePush from 'react-native-code-push';
 import isEmpty from 'lodash/isEmpty';
-import config from 'config';
+import config from '../config';
 import UI from './UI';
 // import '../utils/xhr';
 
