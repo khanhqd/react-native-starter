@@ -6,7 +6,9 @@ import PropTypes from 'prop-types';
 import { HOME } from '../../screens';
 
 export default class Home extends Component {
-
+  static navigatorStyle = {
+    navBarHidden: true,
+  };
   static propTypes = {
     navigator: PropTypes.object.isRequired,
   }
