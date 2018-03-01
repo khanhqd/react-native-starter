@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B935CBBC2046B6770030EDF4 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B935CBBB2046B5DB0030EDF4 /* Ubuntu-Bold.ttf */; };
+		B935CBBD2046B6770030EDF4 /* Helvetica-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B935CBB32046B1B30030EDF4 /* Helvetica-Bold.ttf */; };
+		B935CBBE2046B6770030EDF4 /* Helvetica-BoldOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B935CBB42046B1B30030EDF4 /* Helvetica-BoldOblique.ttf */; };
+		B935CBBF2046B6770030EDF4 /* Helvetica-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B935CBB62046B1B30030EDF4 /* Helvetica-Light.ttf */; };
+		B935CBC02046B6770030EDF4 /* Helvetica-LightOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B935CBB82046B1B30030EDF4 /* Helvetica-LightOblique.ttf */; };
+		B935CBC12046B6770030EDF4 /* Helvetica-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B935CBB52046B1B30030EDF4 /* Helvetica-Oblique.ttf */; };
+		B935CBC22046B6770030EDF4 /* Helvetica.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B935CBB72046B1B30030EDF4 /* Helvetica.ttf */; };
 		E047DF2EAFB88D607B8301FE /* libPods-STQ-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D054D25220BB9D7A8071AA9A /* libPods-STQ-Test.a */; };
 		E33FD0F41FFBDBD900EB627A /* RNUeno.m in Sources */ = {isa = PBXBuildFile; fileRef = E33FD0F31FFBDBD900EB627A /* RNUeno.m */; };
 		E3A2B8A61FEACEE70099C8F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A2B89F1FEACEE70099C8F8 /* AppDelegate.m */; };
@@ -24,6 +31,13 @@
 		53031DDE923D9778D106F497 /* Pods-UenoNativeStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UenoNativeStarter.release.xcconfig"; path = "Pods/Target Support Files/Pods-UenoNativeStarter/Pods-UenoNativeStarter.release.xcconfig"; sourceTree = "<group>"; };
 		7B642519012E49C28F333EDB /* Pods-UenoNativeStarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UenoNativeStarterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UenoNativeStarterTests/Pods-UenoNativeStarterTests.release.xcconfig"; sourceTree = "<group>"; };
 		B5CE841990A646807137FE1B /* Pods-UenoNativeStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UenoNativeStarter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UenoNativeStarter/Pods-UenoNativeStarter.debug.xcconfig"; sourceTree = "<group>"; };
+		B935CBB32046B1B30030EDF4 /* Helvetica-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Helvetica-Bold.ttf"; path = "../assets/fonts/Helvetica-Bold.ttf"; sourceTree = "<group>"; };
+		B935CBB42046B1B30030EDF4 /* Helvetica-BoldOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Helvetica-BoldOblique.ttf"; path = "../assets/fonts/Helvetica-BoldOblique.ttf"; sourceTree = "<group>"; };
+		B935CBB52046B1B30030EDF4 /* Helvetica-Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Helvetica-Oblique.ttf"; path = "../assets/fonts/Helvetica-Oblique.ttf"; sourceTree = "<group>"; };
+		B935CBB62046B1B30030EDF4 /* Helvetica-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Helvetica-Light.ttf"; path = "../assets/fonts/Helvetica-Light.ttf"; sourceTree = "<group>"; };
+		B935CBB72046B1B30030EDF4 /* Helvetica.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Helvetica.ttf; path = ../assets/fonts/Helvetica.ttf; sourceTree = "<group>"; };
+		B935CBB82046B1B30030EDF4 /* Helvetica-LightOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Helvetica-LightOblique.ttf"; path = "../assets/fonts/Helvetica-LightOblique.ttf"; sourceTree = "<group>"; };
+		B935CBBB2046B5DB0030EDF4 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-Bold.ttf"; path = "../assets/fonts/Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
 		C6D9CAC761C0BC40C9E6DED5 /* libPods-UenoNativeStarterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UenoNativeStarterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D054D25220BB9D7A8071AA9A /* libPods-STQ-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STQ-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54EB502811BEE926F2F8941 /* Pods-react-native-starter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-starter.release.xcconfig"; path = "Pods/Target Support Files/Pods-react-native-starter/Pods-react-native-starter.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +104,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				B935CBBB2046B5DB0030EDF4 /* Ubuntu-Bold.ttf */,
+				B935CBB32046B1B30030EDF4 /* Helvetica-Bold.ttf */,
+				B935CBB42046B1B30030EDF4 /* Helvetica-BoldOblique.ttf */,
+				B935CBB62046B1B30030EDF4 /* Helvetica-Light.ttf */,
+				B935CBB82046B1B30030EDF4 /* Helvetica-LightOblique.ttf */,
+				B935CBB52046B1B30030EDF4 /* Helvetica-Oblique.ttf */,
+				B935CBB72046B1B30030EDF4 /* Helvetica.ttf */,
 				E3A2B89D1FEACEE70099C8F8 /* STQ-Test */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -209,6 +230,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B935CBBC2046B6770030EDF4 /* Ubuntu-Bold.ttf in Resources */,
+				B935CBBD2046B6770030EDF4 /* Helvetica-Bold.ttf in Resources */,
+				B935CBBE2046B6770030EDF4 /* Helvetica-BoldOblique.ttf in Resources */,
+				B935CBBF2046B6770030EDF4 /* Helvetica-Light.ttf in Resources */,
+				B935CBC02046B6770030EDF4 /* Helvetica-LightOblique.ttf in Resources */,
+				B935CBC12046B6770030EDF4 /* Helvetica-Oblique.ttf in Resources */,
+				B935CBC22046B6770030EDF4 /* Helvetica.ttf in Resources */,
 				E3A2B8AA1FEACEE70099C8F8 /* Info.plist in Resources */,
 				E3A2B8A91FEACEE70099C8F8 /* Images.xcassets in Resources */,
 				E3A2B8A71FEACEE70099C8F8 /* LaunchScreen.xib in Resources */,

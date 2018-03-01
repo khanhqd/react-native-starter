@@ -40,6 +40,7 @@ export default class Home extends Component {
             size="medium"
             onPress={this.openPopupAddItem}
             label="ADD"
+            fontFamily
           />
           <Button
             style={styles.btn_clear}

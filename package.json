@@ -112,10 +112,5 @@
 				"name": "Nexus_5_API_27"
 			}
 		}
-	},
-	"rnpm": {
-		"assets": [
-			"./assets/fonts/"
-		]
 	}
 }
